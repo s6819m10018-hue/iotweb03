@@ -1,0 +1,38 @@
+<!doctype html>
+ <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* Ajacent Selector */
+      /* S1 + S2 ความหมายคือ S2 ที่อยู่ต่อจาก S1 แค่ตัวแรกที่เจอ */
+      #aa + p{
+        color: orange;
+      }
+    </style>
+  </head>
+  <body>
+        <div id="aa">
+            <p>11111</p>
+            <p>22222</p>
+            <span>HELLO</span>
+            <div id="bb">
+                <p>33333</p>
+                <div id="c">
+                    <p>44444</p>
+                </div>
+            </div>
+            <p>55555</p>
+            <span>HI</span>
+            <p>66666</p>
+        </div>
+        <p>77777</p>
+        <p>88888</p>
+        <span>HEY</span>
+        <p>99999</p>
+  </body>
+</html>
+
+ 
+

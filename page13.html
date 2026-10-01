@@ -1,0 +1,51 @@
+<!doctype html> 
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        /* Attribute Selector */
+        input[type="text"]{
+            background-color: bisque;
+            border: 1px solid  rgb(184, 112, 24);
+            padding: 5px;
+            border-radius: 5px;
+        }
+        input[type="submit"]{
+            background-color: green;
+            border: 1px solid;
+            padding: 5px 15px;
+            border-radius: 5px;
+            color: white;
+        }
+        /* pseudo class selector */
+        /* S:????????????? */
+        input[type="submit"]:hover{
+            background-color: brown;
+        }
+        /* pseudo class selector */
+        /* S::????????????? */
+        h1::first-letter{
+            color: rgb(146, 20, 20);
+            font-size: 140px;
+        }
+    </style>
+  </head>
+
+  <body>
+    <h1>Welcome to SAU</h1>
+    <label for="">ชื่อ-สกุล</label>
+    <input type="text" name="" id="">
+    <br><br>
+    <label for="">สาขาวิชา</label>
+    <input type="text" name="" id="">
+    <br><br>
+    <input type="submit" value="ตกลง">
+    <input type="reset" value="ยกเลิก">
+  </body>
+</html>
+
+ 
+
+
